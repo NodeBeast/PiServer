@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Portfolio Webpage</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light navbar-expand-sm">
+    <div class="container-fluid">
+
+      <div class="row">
+        <ul class="nav navbar-nav">
+          <div class="col-sm-3">
+            <li class="nav-item list-group-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+          </div>
+
+          <div class="col-sm-3">
+            <li class="nav-item list-group-item">
+              <div class="thumbnail">
+                <a class="navbar-brand" href="#">
+                  <img id="powerButton" src="./images/button.png" class="img-responsive img-circle" alt="Turn on the power">
+                </a>
+              </div>
+            </li>
+          </div>
+
+          <div class="col-sm-3">
+            <li class="nav-item list-group-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+          </div>
+
+          <div class="col-sm-3">
+            <li class="nav-item list-group-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="body" class="container-fluid">
+
+  <div class="page-header">
+    <h3>Begin Body</h3>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-sm-6">
+      <p>1 This is the body of the DOM</p>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <p>2 This is the body of the DOM</p>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <p>3 This is the body of the DOM</p>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <p>4 This is the body of the DOM</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="page-header col-lg-12">
+      <h3>Block Quote from Elon Musk</h3>
+    </div>
+    <div class="col-lg-11">
+    <blockquote>So, I studied physics and business, because I figured in
+      order to do a lot of these things you need to know how the universe
+      works and you need to know how the economy works. And you also need
+      to be able to bring a lot of people together to work with you to
+      create something. Because it’s very difficult to do something as
+      individuals if it’s a significant technology. So, I originally came
+      out to California to try to figure out how to improve the energy
+      density of electric vehicles – basically to try to figure out if
+      there was an advanced capacitor that could serve as an alternative
+      to batteries. And that was in 1995.
+    </blockquote>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-11">
+    <h3>Special BootStrap Text Effects</h3>
+  </div>
+    <div class="col-lg-4">
+      <dl>
+        <dt>BOLD Description Text (dt)</dt>
+        <dd>With list elements</dd>
+        <dd>also like this</dd>
+        <dd>and this</dd>
+      </dl>
+    </div>
+    <div class="col-lg-8">
+      <p>We can specify <code>code</code> by using inline code tags.
+        Or we can use the <mark>mark tags to highlight stuff</mark>.
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <h3>Look at my Tables</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Default</td>
+          <td>Defaultson</td>
+          <td>def@somemail.com</td>
+        </tr>
+        <tr class="success">
+          <td>Success</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr class="danger">
+          <td>Danger</td>
+          <td>Moe</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr class="info">
+          <td>Info</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+        <tr class="warning">
+          <td>Warning</td>
+          <td>Refs</td>
+          <td>bo@example.com</td>
+        </tr>
+        <tr class="active">
+          <td>Active</td>
+          <td>Activeson</td>
+          <td>act@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+</div>
+<!--  <canvas id="chart1"></canvas>
+<script>
+var myChart = document.getElementById('chart1').getContext('2d');
+
+//GLOBAL options
+Chart.defaults.global.defaultFontFamily:'Lato';
+//Chart.defaults.global.defaultFontSize:18;
+//Chart.defaults.global.defaultFontColor:'#777';
+
+var barChart = new Chart(myChart, {
+type:'bar', //bar, horizontalBar, pie, line, doughnut, radar, ...
+data:{
+labels:['Boston','Springfield','Cambridge'],
+datasets:[{
+label:'Population',
+data:[
+1,
+2,
+4
+],
+}]
+},
+options:{}
+});
+</script>
+-->
+</body>
+</html>
