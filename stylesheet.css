@@ -1,9 +1,20 @@
-#body{
-  background-color: lightgrey;
 
+#body-container{
+  background-image: url("./images/solar-panels.jpg");
+  background-size: 100px 100px;
+  background-attachment: fixed;
+  background-position: top left;
+  background-repeat: repeat;
+  background-color: rgba(160,160,160, 0.5);
 }
 #powerButton{
-  width: 100px;
-  heght: auto;
-
+  width: 120px;
+  height: auto;
+}
+#nav-row{
+  background-color: rgba(213, 213, 210,0.5);
+  width: 100%;
+}
+#block-quote{
+  background-color: rgba(213,213,213,0.8);
 }
