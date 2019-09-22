@@ -8,13 +8,19 @@
   background-color: rgba(160,160,160, 0.5);
 }
 #powerButton{
-  width: 120px;
+  width: 100%;
   height: auto;
 }
+#pb-link{
+  text-align: center;
+}
 #nav-row{
-  background-color: rgba(213, 213, 210,0.5);
+  background-color: rgba(69, 69, 69, 0.5);
   width: 100%;
 }
 #block-quote{
   background-color: rgba(213,213,213,0.8);
+}
+#bs-tut{
+  background-color: rgba(213,113,113,0.80);
 }
