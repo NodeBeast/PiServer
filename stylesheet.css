@@ -1,4 +1,20 @@
 
+.blue{
+  background-color: rgba(0,0,200,0.5);
+  border: 1px blue;
+}
+.center-block{
+  margin: 0 auto;
+}
+
+.nav-item{
+  justify-content: center;
+  text-align: center;
+}
+#my-nav{
+  margin: 0 auto;
+  justify-content: center;
+}
 #body-container{
   background-image: url("./images/solar-panels.jpg");
   background-size: 100px 100px;
@@ -7,16 +23,22 @@
   background-repeat: repeat;
   background-color: rgba(160,160,160, 0.5);
 }
+#pb-div{
+  margin: 0 auto;
+}
 #powerButton{
-  width: 100%;
-  height: auto;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
 }
 #pb-link{
-  text-align: center;
+  margin: 0 auto;
 }
 #nav-row{
   background-color: rgba(69, 69, 69, 0.5);
   width: 100%;
+  margin: 0 auto;
+
 }
 #block-quote{
   background-color: rgba(213,213,213,0.8);
